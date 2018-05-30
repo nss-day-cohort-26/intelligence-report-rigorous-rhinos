@@ -10,8 +10,8 @@ Any rental companies known to be used by the suspect. */
     font-family: 'Roboto Mono', monospace;
     font-size:150%;
     line-height: 1.25em;
-    color:ivory;
-    background-color:black;
+    color:black;
+    background-image: url("http://www.pptback.com/uploads/abstract-paper-backgrounds-powerpoint.jpg");
     display:flex;
     flex-wrap:wrap;
     flex-direction: row;
@@ -20,6 +20,9 @@ Any rental companies known to be used by the suspect. */
 }
 #ss-airports, #ss-bus, #ss-placesVisited, #ss-rentals{
     list-style-type: none;
+    background-color:chocolate;
+    color:black;
+    border-radius: 20px;
     
 }
 #ss-airports li {
