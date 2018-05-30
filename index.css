@@ -1,0 +1,76 @@
+#jh-mugshot{
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #111;
+    border-radius: 25px;
+    background-color: chocolate;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    width: 50%;
+}
+#jh-mugshotimg {
+    height: 35%;
+    width: 35%;
+}
+#jh-associates {
+    display: block;
+    margin: 8px auto;
+    text-align: center;
+    list-style-position: inside;
+    width: 50%;
+    border: 1px solid #111;
+    border-radius: 25px;
+    background-color: chocolate;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+#jh-aliases{
+    display: block;
+    margin: 8px auto;
+    text-align: center;
+    list-style-position: inside;
+    width: 50%;
+    border: 1px solid #111;
+    border-radius: 25px;
+    background-color: chocolate;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+#jh-country{
+    text-align: center;
+    margin: 8px auto;
+    width: 50%;
+    border: 1px solid #111;
+    border-radius: 25px;
+    background-color: chocolate;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+.jh-navlist{
+    display: inline;
+}
+#jh-navbar {
+    margin: 8px auto;
+    text-align: center;
+    border: 1px solid #111;
+    border-radius: 25px;
+    background-color: chocolate;
+    font-family: 'Roboto Mono', monospace;
+}
+.jh-items{
+    display: inline;
+    padding: 8px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: chocolate;
+    border-radius: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+.jh-items:hover {
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+.jh-items:active{
+    background-color: rgb(114, 108, 108);
+    color: #ffffff;
+}
