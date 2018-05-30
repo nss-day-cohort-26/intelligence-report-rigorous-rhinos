@@ -1,3 +1,13 @@
+body  {
+    background-image: url("http://www.pptback.com/uploads/abstract-paper-backgrounds-powerpoint.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Enriqueta;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+
 .el-finance {
     justify-content: center;
     text-align: center;
