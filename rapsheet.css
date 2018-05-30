@@ -11,6 +11,7 @@ iframe.lg-video {
 /* this helps the photos be in line with the captions underneath centered */
 #lg-witnessList > li {
     list-style-type: none;
+    list-style: none;
     display: inline-block;
     text-align:center;
     margin:10px 0 0 10px;
@@ -24,22 +25,31 @@ iframe.lg-video {
     height: 100px;
 }
 
-ul{
+ul {
     list-style-position: inside;
     text-align: center;
+    padding: 0;
+}
+
+#lg-prisonsList > li {
+    font-size: 20pt;
+}
+
+#lg-small {
+    font-size: 12pt;
 }
 
 #video {
     border-radius: 10%;
     border: solid; 
     padding: 10px;
-    box-shadow:15px 15px 10px 10px grey;  
+    box-shadow:5px 5px 10px 10px rgb(41, 42, 43);  
 }
 
-.lg-header {
+.lg-Header {
     text-align: center;
     font-weight: bold; 
-    color: aqua;
+    font-size: 30pt;
 }
 
 .typewriter {
