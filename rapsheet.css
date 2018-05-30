@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    }
+
+iframe.lg-video {
+    margin: 0 auto;
+	border: 10px outset slategray;
+}
+
+#lg-witnessList > li {
+    list-style-type: none;
+    display: inline-block;
+    text-align:center;
+    margin:10px 0 0 10px;
+}
+
+#lg-witnessImg {
+    border-radius: 50%;
+    border: solid;
+    width:  100px;
+    height: 100px;
+}
