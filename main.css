@@ -53,7 +53,7 @@ body  {
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
   
-}
+  }
 
   /* The typing effect */
   @keyframes typing {
@@ -66,5 +66,3 @@ body  {
     from, to { border-color: transparent }
     50% { border-color: black; }
   }
-    
-    }
