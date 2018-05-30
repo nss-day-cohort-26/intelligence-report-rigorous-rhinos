@@ -16,17 +16,13 @@ body  {
     margin: 8px auto;
     text-align: center;
     border: 1px solid #111;
-    border-radius: 25px;
-    background-color: chocolate;
     font-family: 'Roboto Mono', monospace;
 }
 .jh-items{
     display: inline;
     padding: 8px;
-    background-color: #ffffff;
     text-decoration: none;
-    color: chocolate;
-    border-radius: 35px;
+    color: black;
     font-family: 'Roboto Mono', monospace;
 }
 .jh-items:hover {
@@ -37,3 +33,24 @@ body  {
     background-color: rgb(114, 108, 108);
     color: #ffffff;
 }
+
+.typewriter {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+
+
+.typewriter h1 {
+  text-align: center;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+  
+  }
