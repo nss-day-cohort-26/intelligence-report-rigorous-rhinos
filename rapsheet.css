@@ -1,12 +1,14 @@
 body {
-    font-family: 'Roboto Mono', monospace;
+    text-align: center;
     }
 
+/* this adds that clean frame to the video */
 iframe.lg-video {
     margin: 0 auto;
 	border: 10px outset slategray;
 }
 
+/* this helps the photos be in line with the captions underneath centered */
 #lg-witnessList > li {
     list-style-type: none;
     display: inline-block;
@@ -14,9 +16,61 @@ iframe.lg-video {
     margin:10px 0 0 10px;
 }
 
+/* this makes the witness gifs have a border, become circles, and the same size */
 #lg-witnessImg {
     border-radius: 50%;
     border: solid;
     width:  100px;
     height: 100px;
 }
+
+ul{
+    list-style-position: inside;
+    text-align: center;
+}
+
+#video {
+    border-radius: 10%;
+    border: solid; 
+    padding: 10px;
+    box-shadow:15px 15px 10px 10px grey;  
+}
+
+.lg-header {
+    text-align: center;
+    font-weight: bold; 
+    color: aqua;
+}
+
+.typewriter {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+
+
+.typewriter h1 {
+  text-align: center;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+  
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }

@@ -2,10 +2,7 @@
     background-image: url('https://i1.wp.com/saintpetersblog.com/wp-content/uploads/2015/05/Newspapers1.jpg?w=1024');
     background-color: #cccccc;
 }
-body{
-    font-family: 'Roboto Mono', monospace;
-    
-}
+
 #nc-pageTitle {
     text-align: center;
 }
@@ -14,6 +11,7 @@ body{
     border-style: inset;
     border-color: lightcoral;
     text-align: center;
+    background-color: lightgrey;
     
 }
 
@@ -21,10 +19,12 @@ body{
     border-style: inset;
     border-color: lightcoral;
     text-align: center;
+    background-color: blanchedalmond;
 }
 #nc-event3 {
     border-style: inset;
     border-color: lightcoral;
     float: right;
     text-align: center;
+    background-color: bisque;
 }
