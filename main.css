@@ -11,12 +11,15 @@ body  {
 
 .jh-navlist{
     display: inline;
+
 }
 #jh-navbar {
+    display: inline-block;
     margin: 8px auto;
     text-align: center;
     border: 1px solid #111;
     font-family: 'Roboto Mono', monospace;
+
 }
 .jh-items{
     display: inline;
@@ -24,6 +27,7 @@ body  {
     text-decoration: none;
     color: black;
     font-family: 'Roboto Mono', monospace;
+    white-space: nowrap;
 }
 .jh-items:hover {
     background-color: rgb(46, 46, 46);
@@ -50,7 +54,7 @@ body  {
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
-    typing 3.5s steps(30, end),
+    typing 2.5s steps(30, end),
     blink-caret .5s step-end infinite;
   
   }
