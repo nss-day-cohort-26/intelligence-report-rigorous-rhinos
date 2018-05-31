@@ -6,7 +6,7 @@
 #nc-pageTitle {
     text-align: center;
 }
-
+/*create a box around event 1*/
 #nc-event1 {
     border-style: inset;
     border-color: lightcoral;
@@ -14,13 +14,14 @@
     background-color: lightgrey;
     
 }
-
+/*create a box around event 2*/
 #nc-event2 {
     border-style: inset;
     border-color: lightcoral;
     text-align: center;
     background-color: blanchedalmond;
 }
+/*create a box around event 3*/
 #nc-event3 {
     border-style: inset;
     border-color: lightcoral;
@@ -37,7 +38,7 @@
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
-      typing 3.5s steps(30, end),
+      typing 3.5s steps(30, end),/*speed of typing effect*/
       blink-caret .5s step-end infinite;
     
     }
