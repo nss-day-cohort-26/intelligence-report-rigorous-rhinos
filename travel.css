@@ -20,10 +20,7 @@ Any rental companies known to be used by the suspect. */
     list-style-type: none;
 }
 #ss-airports li {
-    display:inline-flex;
-    justify-content:center;
-    align-items:center;
-    align-content:center;
+    
     padding: 10px;
     overflow: auto;
   }
@@ -39,12 +36,13 @@ Any rental companies known to be used by the suspect. */
     margin-right:auto;
 }
 #ss-bus{
-    display:inline-flex;
-    justify-content:center;
-    align-items:center;
-    align-content:center;
-    padding: 10px;
+    display: inline-flex;
+    padding: 20px;
     overflow: auto;
+    max-width: 1600px;
+}
+#ss-bus li{
+    padding:20px;
 }
 .ss-busker{
     
@@ -68,4 +66,12 @@ Any rental companies known to be used by the suspect. */
 }
 #ss-dickson{
     margin-top: 10px;
+}
+.ss-container{
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    align-content:center;
 }
