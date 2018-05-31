@@ -7,6 +7,7 @@ body  {
     padding: 10px 0;
     text-align: center;
     background-size: cover;
+    margin-top: 7%;
 }
 
 .jh-navlist{
@@ -14,11 +15,14 @@ body  {
 
 }
 #jh-navbar {
-    display: inline-block;
-    margin: 8px auto;
+    margin: 0 auto;
     text-align: center;
-    border: 1px solid #111;
     font-family: 'Roboto Mono', monospace;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: url("http://www.pptback.com/uploads/abstract-paper-backgrounds-powerpoint.jpg");
+
 
 }
 .jh-items{
