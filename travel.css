@@ -5,12 +5,14 @@ List of airports visited.
 List of bus terminals visited.
 List of cities/villages visited.
 Any rental companies known to be used by the suspect. */
-
+#ss-travelReport{
+    margin-top: 10px;
+}
 #ss-travel{
     font-family: 'Roboto Mono', monospace;
     font-size:150%;
-    line-height: 1.25em;
-    color:black;
+    
+    
     background-image: url("http://www.pptback.com/uploads/abstract-paper-backgrounds-powerpoint.jpg");
     
 }
@@ -18,12 +20,14 @@ Any rental companies known to be used by the suspect. */
     list-style-type: none;
 }
 #ss-airports li {
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
     padding: 10px;
     overflow: auto;
   }
-.ss-images{
-    float: left;
-    margin: 0 15px 0 0;
+.ss-images {
     width:150px;
     height: 100px;
 }
@@ -34,8 +38,34 @@ Any rental companies known to be used by the suspect. */
     margin-left:auto;
     margin-right:auto;
 }
+#ss-bus{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    padding: 10px;
+    overflow: auto;
+}
 .ss-busker{
-    float:right;
+    
     width:150px;
     height: 100px;
+}
+.ss-location{
+    width:350px;
+    height: 200px;
+    transform: scale(1.2);
+    border-radius:25px;
+    opacity:.75
+}
+#ss-placesVisited li{
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+}
+#ss-dickson{
+    margin-top: 10px;
 }
