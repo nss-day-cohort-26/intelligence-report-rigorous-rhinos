@@ -2,7 +2,6 @@
     margin: 0 auto;
     text-align: center;
     border-radius: 25px;   
-    color: white;
     font-family: 'Roboto Mono', monospace;
     width: 50%;
 }
@@ -17,7 +16,6 @@
     list-style-position: inside;
     width: 50%;
     border-radius: 25px;
-    color: white;
     font-family: 'Roboto Mono', monospace;
 }
 #jh-aliases{
@@ -27,7 +25,6 @@
     list-style-position: inside;
     width: 50%;   
     border-radius: 25px;
-    color: white;
     font-family: 'Roboto Mono', monospace;
 }
 #jh-country{
@@ -35,7 +32,6 @@
     margin: 8px auto;
     width: 50%; 
     border-radius: 25px;
-    color: white;
     font-family: 'Roboto Mono', monospace;
 }
 
