@@ -12,18 +12,10 @@ Any rental companies known to be used by the suspect. */
     line-height: 1.25em;
     color:black;
     background-image: url("http://www.pptback.com/uploads/abstract-paper-backgrounds-powerpoint.jpg");
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;    
+    
 }
 #ss-airports, #ss-bus, #ss-placesVisited, #ss-rentals{
     list-style-type: none;
-    background-color:chocolate;
-    color:black;
-    border-radius: 20px;
-    
 }
 #ss-airports li {
     padding: 10px;
@@ -35,8 +27,15 @@ Any rental companies known to be used by the suspect. */
     width:150px;
     height: 100px;
 }
+
 #ss-travelReport{
+    display: inline;
     text-align: center;
     margin-left:auto;
     margin-right:auto;
+}
+.ss-busker{
+    float:right;
+    width:150px;
+    height: 100px;
 }
